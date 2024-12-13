@@ -1,106 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kid Charmaleon</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kid Charmaleon</title>
-  <link rel="stylesheet" href="./style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-</head>
-
-<body>
-  <div class="fundo-video">
-    <video class="video" autoplay loop muted>
-      <source src="./img/videoplayback.mp4" type="video/mp4">
-    </video>
-  </div>
-  <nav class="navbar bg-light">
-    <div class="container bg-success">
-      <img class="navbar-brand" src="./img/log kidChamaleon.png" width="200px" alt="Kid Chamaleon" />
-      <ul class="nav w-50 d-flex justify-content-between">
-        <li class="nav-item">
-          <a class="nav-link fs-4" href="/index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-4" href="">História</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-4" href="">Personagens</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-4" href="">Curiosidades</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <main>
-    <section id="historia" class="container d-flex align-items-center">
-      <p style="color: white; text-align: center;">Vista seu jeans preferido, pegue seu tênis mais transado e coloque
-        seus óculos escuros,
-        pois agora, você é: Kid
-        Chameleon! O maléfico Heady Metal e seus horripilantes seguidores estão raptando centenas de crianças todos os
-        dias. Mas agora isto pode mudar, pois você chegou pronto para entrar em ação.
-        Estoure blocos com sua cabeça e - Blam! - deles cairão capacetes poderosos que o transformarão em um demolidor
-        alucinado, numa barulhenta mosca em miniatura, num maníaco com um machado, num destemido ninja, num cortador de
-        céu a jato e muito mais!
-
-        Escale paredes, ande de skate no teto e, com saltos incríveis, acabe com todos os monstros. Se não conseguir,
-        escape espremido através de pequenos buracos nas paredes! Acumule o máximo de energia que puder, pois você terá
-        que passar por 103 fases e encontrar centenas de passagens super secretas: há sempre uma saída. Encontre a sua!
-      </p>
-      <img src="./img/capaKidChamaleon.jpg" alt="capa Kid Chamaleon">
-    </section>
-    <section>
-      <figure>
-        <figcaption>
-
-        </figcaption>
-        <img src="" alt="">
-      </figure>
-      <figure>
-        <figcaption>
-
-        </figcaption>
-        <img src="" alt="">
-      </figure>
-      <figure>
-        <figcaption>
-
-        </figcaption>
-        <img src="" alt="">
-      </figure>
-      <figure>
-        <figcaption>
-
-        </figcaption>
-        <img src="" alt="">
-      </figure>
-      <figure>
-        <figcaption>
-
-        </figcaption>
-        <img src="" alt="">
-      </figure>
-      <figure>
-        <figcaption>
-
-        </figcaption>
-        <img src="" alt="">
-      </figure>
-    </section>
-    <section>
-
-    </section>
-  </main>
-  <footer>
-
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-</body>
-
+  <body>
+    <nav class="navbar bg-light">
+      <div class="container">
+        <img
+          class="navbar-brand"
+          src="./img/log kidChamaleon.png"
+          width="200px"
+          alt="Kid Chamaleon"
+        />
+        <ul class="nav w-50 d-flex justify-content-between">
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="">História</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="">Personagens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="">Curiosidades</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section id="historia" class="container d-flex align-items-center">
+        <div class="fundo-video">
+          <video class="video" autoplay loop muted>
+            <source src="./img/videoplayback.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="container-paragrafo">
+          <p class="textoPrincipal">
+            Vista seu jeans preferido, pegue seu tênis mais transado e coloque
+            seus óculos escuros, pois agora, você é: Kid Chameleon! O maléfico
+            Heady Metal e seus horripilantes seguidores estão raptando centenas
+            de crianças todos os dias. Mas agora isto pode mudar, pois você
+            chegou pronto para entrar em ação. Estoure blocos com sua cabeça e -
+            Blam! - deles cairão capacetes poderosos que o transformarão em um
+            demolidor alucinado, numa barulhenta mosca em miniatura, num maníaco
+            com um machado, num destemido ninja, num cortador de céu a jato e
+            muito mais! Escale paredes, ande de skate no teto e, com saltos
+            incríveis, acabe com todos os monstros. Se não conseguir, escape
+            espremido através de pequenos buracos nas paredes! Acumule o máximo
+            de energia que puder, pois você terá que passar por 103 fases e
+            encontrar centenas de passagens super secretas: há sempre uma saída.
+            Encontre a sua!
+          </p>
+        </div>
+        <div class="containerCapa">
+          <img
+            class="capa"
+            src="./img/capaKidChamaleon.jpg"
+            alt="capa Kid Chamaleon"
+          />
+        </div>
+      </section>
+      <section class="container">
+        <figure class="card">
+          <figcaption>
+            <h2>Kid Charmeleon</h2>
+          </figcaption>
+          <img
+            class="card-img card-img-top"
+            src="./img/personagem.png"
+            alt=""
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quasi
+            velit accusantium odio perspiciatis sed tempore commodi corrupti,
+            est ipsam. Minima similique quia modi ipsa deleniti dolorem tenetur
+            vitae fuga?
+          </p>
+        </figure>
+        <figure>
+          <figcaption></figcaption>
+          <img src="" alt="" />
+        </figure>
+        <figure>
+          <figcaption></figcaption>
+          <img src="" alt="" />
+        </figure>
+        <figure>
+          <figcaption></figcaption>
+          <img src="" alt="" />
+        </figure>
+        <figure>
+          <figcaption></figcaption>
+          <img src="" alt="" />
+        </figure>
+        <figure>
+          <figcaption></figcaption>
+          <img src="" alt="" />
+        </figure>
+      </section>
+      <section></section>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
