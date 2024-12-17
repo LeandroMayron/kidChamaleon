@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+.nav-link{
+    font-family: "Press Start 2P", serif;
 }
 
 body {
@@ -33,6 +38,10 @@ body {
     opacity: 50%;
 }
 
+.textoPrincipal{
+    font-family: "Press Start 2P", serif;
+    font-size: 10px;
+}
 
 
 .container-paragrafo{
@@ -60,3 +69,34 @@ body {
     height: 591px;
 }
 
+.energia {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.esferaPower{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #9B4DFF;
+}
+
+.iconPower{
+    width: 10px;
+    height: 10px;
+}
+
+.card-title{
+    font-family: "Press Start 2P", serif;
+    font-size: 13px;
+}
+
+.paragrafoCard{
+    font-family: "Press Start 2P", serif;
+    font-size: 10px;
+}
