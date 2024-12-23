@@ -99,3 +99,40 @@ body {
     font-family: "Press Start 2P", serif;
     font-size: 10px;
 }
+
+#myVideo{
+    width: 450px;
+    height: 500px;
+    background-image: linear-gradient(black, purple);
+    border: 5px solid #39FF14;
+    border-radius: 5px;
+}
+
+.bordaFicha{
+    border: 2px solid #39FF14;
+    border-radius: 5px;
+}
+
+.fichaPersonagem{
+    background-image: linear-gradient(black, purple);
+}
+
+.fichaPersonagem{
+    font-family: "Press Start 2P", serif;
+    border: 5px solid #39FF14;
+    border-radius: 5px;
+    color: #FFD700;
+}
+
+.fichaPersonagem h6{
+    font-size: 13px;
+}
+
+.fichaPersonagem li{
+    font-size: 11px;
+}
+
+.fichaPersonagem p{
+    font-size: 10px;
+    color: #39FF14;
+}
