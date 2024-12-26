@@ -366,27 +366,28 @@
         <div class="carousel-inner p-4">
           <div class="carousel-item active">
             <div class="d-flex justify-content-center">
-              <div class="card cols-sm-4 g-4 mx-2" style="width: 16rem; background-color: #6ABF4B;">
-                <h5 class="card-title  rounded m-2 p-1 border-dark text-center py-2"
-                  style="box-shadow: 2px 2px 4px  black, inset 2px 2px 3px white;color:#2e2e2e">Kid Charmaleon</h5>
-                <div class="energia">
-                  <div class="esferaPower">
-                    <img class="iconPower" src="./img/estrela.png" alt="energia">
+                <div class="card cols-sm-4 g-4 mx-2" data-bs-toggle="modal" data-bs-target="#personagemModal" style="width: 16rem; background-color: #6ABF4B;">
+                  <h5 class="card-title  rounded m-2 p-1 border-dark text-center py-2"
+                    style="box-shadow: 2px 2px 4px  black, inset 2px 2px 3px white;color:#2e2e2e">Kid Charmaleon</h5>
+                  <div class="energia">
+                    <div class="esferaPower">
+                      <img class="iconPower" src="./img/estrela.png" alt="energia">
+                    </div>
+                  </div>
+                  <div class="h-50 m-2 d-flex justify-content-center align-items-center rounded"
+                    style="background-image: url(./img/grama.jpg);">
+                    <img class="card-img-top" src="./img/personagem.png" alt="Imagem de capa do card" style="width: 8rem;
+   height: 10rem; ">
+                  </div>
+                  <div class="card-body d-flex align-items-center m-2 rounded"
+                    style="padding: 10px; background-color: #69e43c;border: 8px solid transparent; border-image: url(./img/grama.jpg) 30 stretch;">
+                    <div>
+                      <p class="paragrafoCard fw-semibold mb-1" style="color: #2e2e2e ;">Circle of Doom</p>
+                      <p class="paragrafoCard fw-semibold mb-1" style="color: #2e2e2e ;">Diamond Snake</p>
+                    </div>
                   </div>
                 </div>
-                <div class="h-50 m-2 d-flex justify-content-center align-items-center rounded"
-                  style="background-image: url(./img/grama.jpg);">
-                  <img class="card-img-top" src="./img/personagem.png" alt="Imagem de capa do card" style="width: 8rem;
- height: 10rem; ">
-                </div>
-                <div class="card-body d-flex align-items-center m-2 rounded"
-                  style="padding: 10px; background-color: #69e43c;border: 8px solid transparent; border-image: url(./img/grama.jpg) 30 stretch;">
-                  <div>
-                    <p class="paragrafoCard fw-semibold mb-1" style="color: #2e2e2e ;">Circle of Doom</p>
-                    <p class="paragrafoCard fw-semibold mb-1" style="color: #2e2e2e ;">Diamond Snake</p>
-                  </div>
-                </div>
-              </div>
+
 
               <div class="card cols-sm-4 g-4 mx-2" style="width: 16rem; background-color: #6ABF4B;">
                 <h5 class="card-title  rounded m-2 p-1 border-dark text-center py-2"
@@ -690,6 +691,16 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+
+      <div class="modal fade" id="personagemModal" tabindex="-1" aria-labelledby="personagemModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-bory">
+              <iframe src="./kidCharmeleon.html" width="100%" height="500px" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
