@@ -69,6 +69,7 @@ body {
 }
 
 .card {
+    cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -109,7 +110,7 @@ body {
 
 #myVideo{
     width: 450px;
-    height: 500px;
+    height: 470px;
     background-image: linear-gradient(black, purple);
     border: 5px solid #39FF14;
     border-radius: 5px;
@@ -121,6 +122,8 @@ body {
 }
 
 .fichaPersonagem{
+    width: 450px;
+    height: 470px;
     background-image: linear-gradient(black, purple);
 }
 
@@ -132,14 +135,14 @@ body {
 }
 
 .fichaPersonagem h6{
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .fichaPersonagem li{
-    font-size: 11px;
+    font-size: 0.6rem;
 }
 
 .fichaPersonagem p{
-    font-size: 10px;
+    font-size: 0.6rem;
     color: #39FF14;
 }
