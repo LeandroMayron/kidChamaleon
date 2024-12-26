@@ -68,6 +68,13 @@ body {
     height: 591px;
 }
 
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translatey(-10px) scale(1.05);
+}
 .energia {
     display: flex;
     justify-content: flex-end;
