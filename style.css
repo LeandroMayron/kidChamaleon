@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 .nav-link{
@@ -145,4 +144,20 @@ body {
 .fichaPersonagem p{
     font-size: 0.6rem;
     color: #39FF14;
+}
+
+#curiosidades {
+    font-family: "Press Start 2P", serif;
+}
+
+#curiosidades li, p {
+    font-size: 0.6rem;
+    line-height: 22px;
+}
+
+footer h5 {
+    font-family: "Press Start 2P", serif;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color: #0d6efd;
 }
