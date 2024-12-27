@@ -150,7 +150,7 @@ body {
     font-family: "Press Start 2P", serif;
 }
 
-#curiosidades li  p {
+#curiosidades div{
     font-size: 0.6rem;
     line-height: 22px;
 }
